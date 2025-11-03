@@ -16,7 +16,7 @@
 
 ---
 
-## ⚙️ Getting Started
+### ⚙️ Getting Started
 
 ### 1️⃣ Clone this repository
   git clone https://github.com/racroithenho/flutter-intermediate-projects.git
@@ -27,8 +27,10 @@
   flutter run
 ### 3️⃣ Modify and explore each app
   Each project is self-contained and can be run independently.
+  
+---
 
-📘 Project List
+#### 📘 Project List
 🧱 Project 1: Personal Profile App
 
   Goal: Learn basic layout and responsive UI.
@@ -100,6 +102,8 @@
   Description: Login/register with email & password and show user info.
   Tech Used: firebase_core, firebase_auth, StreamBuilder
   Outcome: Firebase-based login app with real-time auth state updates.
+  
+---
 
 🧩 Topics Covered
 - Responsive UI Design
@@ -109,4 +113,6 @@
 - Notifications
 - Firebase Authentication
 - Native Device Features (Camera, Location)
+  
+---
 
