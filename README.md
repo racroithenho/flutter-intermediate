@@ -19,15 +19,14 @@
 ## ⚙️ Getting Started
 
 ### 1️⃣ Clone this repository
-```bash
-git clone https://github.com/racroithenho/flutter-intermediate-projects.git
-cd flutter-intermediate-projects
-2️⃣ Open a specific project
-cd news_reader_app
-flutter pub get
-flutter run
-3️⃣ Modify and explore each app
-Each project is self-contained and can be run independently.
+  git clone https://github.com/racroithenho/flutter-intermediate-projects.git
+  cd flutter-intermediate-projects
+### 2️⃣ Open a specific project
+  cd news_reader_app
+  flutter pub get
+  flutter run
+### 3️⃣ Modify and explore each app
+  Each project is self-contained and can be run independently.
 
 📘 Project List
 🧱 Project 1: Personal Profile App
