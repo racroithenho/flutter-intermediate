@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 import '../models/article_model.dart';
 
 class NewsService {
-  static const String _apiKey = 'YOUR_API_KEY_HERE';
+  static const String _apiKey = 'd2d9e1803f84437db52550459a774612';
   static const String _baseUrl = 'https://newsapi.org/v2/top-headlines';
   static const String _country = 'us';
 

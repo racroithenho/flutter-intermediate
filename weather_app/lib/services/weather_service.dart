@@ -4,7 +4,7 @@ import 'package:geolocator/geolocator.dart';
 import '../models/weather_model.dart';
 
 class WeatherService {
-  final String apiKey = "YOUR_API_KEY"; // ⚠️ Thay bằng key của bạn
+  final String apiKey = "9a296bfc35ee5fe21f010a4a99dab403"; // ⚠️ Thay bằng key của bạn
 
   Future<Weather> fetchWeather() async {
     // Yêu cầu quyền truy cập vị trí

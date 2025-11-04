@@ -6,7 +6,7 @@ import 'package:timezone/timezone.dart' as tz;
 
 
 void main() async {
-  WidgetsFlutterBinding.ensureInitialized();
+  WidgetsFlutterBinding.ensureInitialized(); 
   tz.initializeTimeZones();
 
   // Khởi tạo plugin
