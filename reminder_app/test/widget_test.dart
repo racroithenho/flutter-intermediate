@@ -9,11 +9,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 import 'package:reminder_app/main.dart';
+import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
     // Build our app and trigger a frame.
-    await tester.pumpWidget(const ReminderApp());
+    final plugin = FlutterLocalNotificationsPlugin();
+    await tester.pumpWidget(ReminderApp(plugin: plugin));
+
 
     // Verify that our counter starts at 0.
     expect(find.text('0'), findsOneWidget);

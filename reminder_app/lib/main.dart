@@ -3,11 +3,16 @@ import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:intl/intl.dart';
 import 'package:timezone/data/latest_all.dart' as tz;
 import 'package:timezone/timezone.dart' as tz;
+import 'package:flutter_native_timezone/flutter_native_timezone.dart';
+
 
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized(); 
   tz.initializeTimeZones();
+  final String currentTimeZone = await FlutterNativeTimezone.getLocalTimezone();
+  tz.setLocalLocation(tz.getLocation(currentTimeZone));
+
 
   // Khởi tạo plugin
   final FlutterLocalNotificationsPlugin flutterLocalNotificationsPlugin =
